@@ -1,2 +1,2 @@
 #!/bin/bash
-Play Star Wars IV episode
+sudo apt install telnet
