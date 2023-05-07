@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
 # write a bash script that listens on port 98bon localhost
 
-netcat -l 98
+telnet -l 98
