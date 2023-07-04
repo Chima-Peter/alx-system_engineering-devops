@@ -1,4 +1,0 @@
-#!/usr/bin/env bash
-# Displays listeningpoorts and pids and names of the programes each socket belong to
-
-sudo netstat -pl
