@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 # A bash script printing BEST SCHOOL 10 times using until loop
 i=0
-until [[ $i == 9 ]]
+until [[ $i == 10 ]]
 do
 	echo "Best School"
 	i=$((i+1))
