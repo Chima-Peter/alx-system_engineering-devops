@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+# A bash script  that displays the content of the file /etc/passwd. Your script should only display: username, user id, Home directory path for the user
+
+path="/etc/passwd"
+while read -r line
+do
+	IFS=':'
+	read -r name passwd t  id home_dir cur_dir  cur__dir <<< "$line"
+	echo "The user $name is part of the $id gang, lives in $cur_dir and rides $cur__dir. $id's place is protected by the passcode $passwd, more info about the user here: $name"
+done < "$path"
