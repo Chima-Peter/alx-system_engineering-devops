@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# displaus PID for self
+
+echo "$$"
